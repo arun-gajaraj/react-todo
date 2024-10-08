@@ -30,7 +30,6 @@ function App() {
 	function handleEditTodo(index) {
 		const valueToEdit = todoList[index]
 		handleDeleteTodo(index)
-		persistData(newList)
 		setTodoInputValue(valueToEdit)
 	}
 
